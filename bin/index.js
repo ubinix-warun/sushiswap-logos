@@ -28,6 +28,8 @@ const NAME_TO_CHAIN_ID = {
   palm: ChainId.PALM,
   telos: ChainId.TELOS,
   xdai: ChainId.XDAI,
+  aggron: ChainId.NERVOS_TESTNET,
+  hardhat: ChainId.HARDHAT,
 };
 
 const CHAIN_ID_TO_NAME = {
@@ -51,6 +53,8 @@ const CHAIN_ID_TO_NAME = {
   [ChainId.PALM]: "palm",
   [ChainId.TELOS]: "telos",
   [ChainId.XDAI]: "xdai",
+  [ChainId.HARDHAT]: "hardhat",
+  [ChainId.NERVOS_TESTNET]: "aggron",
 };
 
 // TODO: #8 Add network and agnostic clone command to bin/index.js which
